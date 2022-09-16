@@ -120,19 +120,22 @@ h1,h2,h3,h4,h5,h6{
     align-items: center;
 }
 .con-productos{
-    width: 100%;
+    width: 80%;
     height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .con-productos .tarjeta-pro{
     width: 400px;
-    height: 500px;
+    height: auto;
     background-color: aqua;
     border-radius: 10px;
     border: 1px solid black;
 }
 .tarjeta-pro img{
     width: 100%;
-    height: 200px;
+    height: auto;
 
 }
 .tarjeta-pro .contenido{
@@ -154,5 +157,14 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.tarjeta-pro .botones p{
+    font-weight: bold;
+    color: black;
+}
+.tarjeta-pro .botones a{
+    background-color: crimson;
+    color: azure;
+    
 }
 
