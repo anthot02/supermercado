@@ -1,0 +1,229 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(13, 182, 100);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.menu .logo a img{
+    width: 100px;
+    
+
+}
+.enlaces ul{
+    list-style: none;
+    display: flex;
+}
+.enlaces ul li{
+    margin-right: 10px;
+
+}
+.enlaces ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+.enlaces ul li a:hover{
+    border-bottom: 1px solid black;
+    color:chartreuse;
+}
+
+.iconos i,
+.iconos svg{
+    margin-right: 5px;
+    color: white;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.iconos i:hover,
+.iconos svg:hover{
+    color: green;
+    background-color: white;
+    font-size: 20px;
+}
+/* estilos principal */
+.principal{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/musica-instrumental-para-supermercados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -390px;
+    display: flex;
+    justify-content: center;
+}
+.principal .con-texto{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+   
+}
+.principal .con-texto h1{
+    font-size: 50px;
+    color: green;
+}
+.principal .con-texto p{
+    font-size: 20px;
+    color: white;
+}
+.principal .con-texto a{
+    font-size: 20px;
+    background-color: forestgreen;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+/* sesion descuento*/
+.descuentos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.descuentos .imagenes-des img{
+    width: 300px;
+    height: 300px;
+}
+.imagenes-des{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+.titulo h2,
+.productos .titulo-pro,
+.servicios .titulo-ser{
+    font-size: 50px;
+    color: green;
+    font-weight: bold;
+}
+.titulo h2{
+    font-size: 50px;
+}
+/* sesion productos*/
+.productos,
+.servicios{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.con-productos,
+.con-servicios{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.con-productos .tarjeta-pro{
+    width: 400px;
+    height: auto;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.tarjeta-pro img{
+    width: 100%;
+    height: auto;
+
+}
+.tarjeta-pro .contenido{
+    width: 100%;
+    height: auto;
+}
+.tarjeta-pro .contenido h3{
+    color: green;
+    font-size: 35px;
+    font-weight: bold;
+}
+.tarjeta-pro .contenido p{
+    font-size: 20px;
+
+}
+.tarjeta-pro .botones{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tarjeta-pro .botones p{
+    font-weight: bold;
+    color: black;
+}
+.tarjeta-pro .botones a{
+    background-color: crimson;
+    color: azure;
+    
+}
+/* servicios */
+.con-servicios{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+}
+.con-servicios .servicio-1,
+.con-servicios .servicio-2{
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+.servicio-1 img,
+.servicio-2 img,
+.servicio-1 .con-texto
+.servicio-2 .con-texto{
+    width: 50%;
+    height: auto;
+
+}
+.servicio-1 .con-texto h3,
+.servicio-2 .con-texto h3{
+    font-size: 45px;
+    color: blue;
+    font-weight: bold;
+}
+.servicio-1 .con-texto p,
+.servicio-2 .con-texto p{
+    font-size:20px;
+    color: black;
+    font-weight: bold;
+   
+}
+.servicio-1 .con-texto a,
+.servicio-2 .con-texto a{
+    font-size:20px;
+    color:white;
+    font-weight: bold;
+    background-color: chartreuse;
+    padding: 8px 12px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.servicio-1 .con-texto a:hover,
+.servicio-2 .con-texto a:hover{
+
+    color:chartreuse;
+    background-color: white;
+    border: 2px solid chartreuse;
+}
+    
+    
+    
+
